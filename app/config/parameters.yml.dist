@@ -1,0 +1,15 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    # A secret key that's used to generate certain security-related tokens
+    secret:             ThisTokenIsNotSoSecretChangeIt
+
+    amq_server_hosts:
+        a: '127.0.0.1'
+        b: '127.0.0.1'
+    amq_server_port:    5672
+    amq_server_user:    guest
+    amq_server_pass:    guest
+    amq_server_vhost:   /
+    amq_queue_name:     test
